@@ -1,0 +1,17 @@
+{
+  "name": "talks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "new": "npm init slidev@latest",
+      "build": "./build.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slidev/cli": "^0.40.3",
+    "@slidev/theme-seriph": "^0.21.3"
+  }
+}
