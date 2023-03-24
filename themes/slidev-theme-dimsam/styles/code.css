@@ -1,0 +1,30 @@
+@import 'prism-theme-vars/base.css';
+@import 'codemirror-theme-vars/base.css';
+@import 'prism-theme-vars/to-codemirror.css';
+
+:root {
+  --neonblue: #635CFF;
+  --white: #FFFFFF;
+}
+
+pre[class*='language-'] {
+  @apply p-2;
+}
+
+:not(pre) > code {
+  font-size: 0.9em;
+  
+  background: var(--neonblue);
+  @apply font-light py-0.5 rounded text-color-$white;
+}
+
+
+:not(pre) > code:before,
+:not(pre) > code:after {
+  content: '`';
+  opacity: 0.50;
+}
+
+:not(pre) > code:before {
+  margin-right: -0.08em;
+}
