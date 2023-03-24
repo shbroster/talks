@@ -1,15 +1,13 @@
 #! /bin/bash
 set -x
 
+TalkDir="talks/"
+
 rm -rf dist
 mkdir dist
-
-for talkDir in $(ls talks/)
+for talk in "${TalkDir}"*
 do
-  cd "talks/${talkDir}"
-  npm ci
-  npm run build -- --base "talks/${talkDir}/" --out "../../dist/${talkDir}"
-  # mkdir "../dist/${talkDir}"
-  # mv dist "../dist/${talkDir}"
-  cd -
+  cd "${talk}" || exit
+  npm ci && npm run build -- --base "${talk}" --out "../../dist/${talk:${#TalkDir}}"
+  cd - || exit
 done

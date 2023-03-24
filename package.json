@@ -4,8 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "new": "npm init slidev@latest",
       "build": "./build.sh"
   },
   "author": "",
