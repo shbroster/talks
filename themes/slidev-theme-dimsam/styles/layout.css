@@ -1,10 +1,9 @@
-
 :root {
-  --gunmetal: #1A232A;
+  --gunmetal: #262B2F;
   --white: #FFFFFF;
-  --neonblue: #635CFF;
-  --dimgrey: #6D6B69;
-  --imperialred: #FF0133;
+  --neonblue: #615CFF;
+  --dimgrey: #333D47;
+  --imperialred: #FF0032;
 }
 
 .slidev-layout.cover,
@@ -27,7 +26,6 @@
 }
 
 #slide-content {
-
   @apply text-color-$dimgrey bg-$gunmetal !important;
 
   h1,
