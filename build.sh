@@ -8,7 +8,7 @@ for talkDir in $(ls talks/)
 do
   cd "talks/${talkDir}"
   npm ci
-  npm run build -- --base "/${talkDir}/" --out "../../dist/${talkDir}"
+  npm run build -- --base "talks/${talkDir}/" --out "../../dist/${talkDir}"
   # mkdir "../dist/${talkDir}"
   # mv dist "../dist/${talkDir}"
   cd -
