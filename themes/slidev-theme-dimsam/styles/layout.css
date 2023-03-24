@@ -1,8 +1,10 @@
 :root {
-  --gunmetal: #262B2F;
+  --gunmetal: #1e242a;
   --white: #FFFFFF;
   --neonblue: #615CFF;
+  --darkneonblue: #4c47eb;
   --dimgrey: #333D47;
+  --lightgrey: #c3ccd4;
   --imperialred: #FF0032;
 }
 
@@ -26,7 +28,7 @@
 }
 
 #slide-content {
-  @apply text-color-$dimgrey bg-$gunmetal !important;
+  @apply text-color-$lightgrey bg-$gunmetal !important;
 
   h1,
   h2,
@@ -38,11 +40,11 @@
   }
 
   strong {
-    @apply text-color-$white;
+    @apply text-color-$neonblue;
   }
 
   em {
-    @apply text-color-$neonblue;
+    @apply text-color-$dimgrey;
   }
 
   a {
@@ -57,7 +59,7 @@
   }
 
   blockquote {
-    @apply bg-transparent text-color-$neonblue border-none;
+    @apply bg-transparent text-color-$darkneonblue border-$none;
 
     /* ℹ️ "font-italic" isn't working */
     font-style: italic;
