@@ -1,5 +1,6 @@
 :root {
   --gunmetal: #1e242a;
+  --gunmentallight: #272f37;
   --white: #FFFFFF;
   --neonblue: #615CFF;
   --darkneonblue: #4c47eb;
@@ -59,7 +60,7 @@
   }
 
   blockquote {
-    @apply bg-transparent text-color-$darkneonblue border-$none;
+    @apply bg-$gunmentallight text-color-$darkneonblue border-$none;
 
     /* ℹ️ "font-italic" isn't working */
     font-style: italic;

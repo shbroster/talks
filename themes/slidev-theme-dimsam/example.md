@@ -26,6 +26,10 @@ Slidev is a slides maker and presenter designed for developers, consist of the f
 - 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
 - 🛠 **Hackable** - anything possible on a webpage
 
+`CodeValue`  *italic* **bold**
+
+> Quote
+
 <br>
 <br>
 
@@ -72,9 +76,34 @@ function updateUser(id: number, update: Partial<User>) {
 ```
 
 ---
+layout: image-right
+image: https://uploads-ssl.webflow.com/628e26aa125598267a610d36/62949fb02990f6dd7255027f_1493_Bento_Graphic_Pattern_02_Bottom_Left_800px_AW2-min.svg
+---
+
+# Title
+text
+
+---
+layout: image-right
+image: https://uploads-ssl.webflow.com/628e26aa125598267a610d36/628e26aa12559821f8610d6b_callto-action-module-bg-pattern.svg
+---
+
+# Title
+text
+
+---
+layout: image-right
+image: https://uploads-ssl.webflow.com/628e26aa125598267a610d36/62949fa866eab3fd25fe9f44_1493_Bento_Graphic_Pattern_01_Top_Right_800px_AW2-min.svg
+---
+
+# Title
+text
+
+---
 layout: center
 class: "text-center"
 ---
+
 
 # Learn More
 
